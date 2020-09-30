@@ -1,0 +1,59 @@
+h1{
+    color: blue;
+    border: 5px solid yellow;
+}
+h3{
+    color: red;
+}
+h3.h3satu{
+    color: yellow;
+    border: 5px solid red;
+
+}
+.pertama{
+    color: darkturquoise;
+}
+.kedua{
+    color: deepskyblue;
+}
+.ketiga{
+    color: goldenrod;
+}
+
+#divpertama{
+    background-color: mediumslateblue;
+}
+#satu{
+    background-color: lightblue;
+}
+.keempat{
+    color: tomato;
+}
+.kelima{
+    color: violet;
+}
+.keenam{
+    color: teal;
+}
+#dua{
+    background-color: wheat;
+    border: 5px solid lightseagreen;
+}
+#tiga{
+    background-color: midnightblue;
+}
+#divakhir{
+    background-color: brown;
+}
+a[href]{
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: darkblue;
+    color: yellow;
+    border: 5px solid black;
+}
+h2:hover{
+    color: white;
+    background-color: black;
+}
