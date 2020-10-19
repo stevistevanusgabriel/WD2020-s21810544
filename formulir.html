@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>folmulir dalam html</title>
+</head>
+<body>
+
+    <form action="/path">
+        <!-- Elemen pada formulir -->
+        <fieldset>
+            <legend><b>Formulir Calon Pegawai</b></legend>
+            <label for="name">Nama : </label>
+            <input type="text" name="name" /><br><br>
+            <label for="address">Alamat : </label>
+            <input type="text" name="address" /><br><br>
+            <label for="password">Password : </label>
+            <input type="text" name="password" /><br>
+
+            <p>Jenis kelamin : <input type="radio"> laki-laki <input type="radio">perempuan</p>
+
+            <p>Bahasa pemograman yang disukai : <input type="checkbox">WEB <input type="checkbox">MOBILE <input type="checkbox">DESKTOP</p>
+
+            <p>Kota asal : <select>
+                <option value="Jakarta">semarang</option>
+                <option value="Surabaya">manado</option>
+                <option value="Bandung">Bandung</option>
+              </select></p>
+
+            <p>apa yang membuat kami harus memilih anda? :  <textarea rows="4" cols="50" placeholder="Tulis komentar Anda di sini...."></textarea></p>
+            <button>Proses</button>     
+          </fieldset>
+          
+      </form>
+      
+</body>
+</html>
